@@ -1,0 +1,12 @@
+aws:
+  accessKey: localstack
+  secretKey: localstack
+  region: "us-east-1"
+  sns:
+    endpoint: "http://localhost:4566"
+    topics:
+      main-topic: "sns-events-topic"
+  sqs:
+    endpoint: "http://localhost:4566"
+    queues:
+      main-queue: "sqs-queue"
